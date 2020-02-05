@@ -3,14 +3,14 @@ import './Card.css';
 
 function Card(props){
     return (
-        <div className="card">
-            <h1>
+        <div className="Card">
+            <button className="Card" type="button">delete</button>
+            <h3 className="Card">
                 {props.title}
-            </h1>
-            <p>
+            </h3>
+            <p className="Card">
                 {props.content}
             </p>
-            <button type="button">delete</button>
         </div>
     );
 }
